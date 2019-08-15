@@ -37,4 +37,9 @@ public class Home extends AppCompatActivity {
         calorieCounter = this.findViewById(R.id.calorieCounter);
         result = this.findViewById(R.id.result);
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
